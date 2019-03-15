@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F7F9FA"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true">
+
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_gravity="top|left"
+        android:layout_marginTop="2dp"
+        android:layout_marginRight="0dp"
+        android:src="@drawable/apepdcl" />
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="0dp"
+
+        android:layout_marginRight="0dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/ap_txt"
+            android:layout_width="313dp"
+            android:layout_height="40dp"
+            android:textSize="20dp"
+            android:typeface="sans"
+            android:text="Andhra Predesh - APEPDCL"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <TextView
+            android:id="@+id/apl_txt"
+            android:layout_width="313dp"
+            android:layout_height="40dp"
+            android:typeface="serif"
+
+            android:text="AP Eastern Distribution"
+            android:textSize="15dp"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+
+    </LinearLayout>
+
+
+
+
+    </RelativeLayout>
+
+
+</LinearLayout>
